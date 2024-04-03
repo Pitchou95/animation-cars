@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-image: url("images/download.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.anim1 {
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  animation-name: a1;
+  animation-duration: 3s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-image: url("images/car1.png");
+  background-size: cover;
+  animation-timing-function: ease;
+}
+@keyframes a1 {
+  0% {
+  }
+
+  100% {
+    right: 1450px;
+  }
+}
+.anim2 {
+  width: 450px;
+  height: 250px;
+  margin: 130px auto;
+  position: absolute;
+  left: 0;
+  animation-name: a2;
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  background-image: url("images/car2.png");
+  background-size: cover;
+}
+@keyframes a2 {
+  0% {
+  }
+  100% {
+    left: 1450px;
+  }
+}
+.anim3 {
+  width: 450px;
+  height: 250px;
+  margin: 380px 0;
+  position: absolute;
+  right: 0;
+  animation-name: a3;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-image: url("images/car4.png");
+  background-size: cover;
+}
+@keyframes a3 {
+  0% {
+  }
+  100% {
+    right: 1445px;
+  }
+}
+.anim4 {
+  width: 550px;
+  height: 270px;
+  margin: 650px auto;
+  position: absolute;
+  left: 0;
+  animation-name: a4;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  background-image: url("images/car3.png");
+  background-size: cover;
+}
+@keyframes a4 {
+  0% {
+  }
+  100% {
+    left: 1330px;
+  }
+}
